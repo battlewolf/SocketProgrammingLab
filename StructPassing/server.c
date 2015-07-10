@@ -33,8 +33,6 @@ void killConn() {
 	close(sd2);
 }
 
-
-
 main() {
 	makeConnection();
 	struct message M;
@@ -42,10 +40,3 @@ main() {
 	printf("\n Name : %s Age : %d", M.name, M.age);
 	killConn();
 }
-
-
-
-
-
-
-
